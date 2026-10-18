@@ -18,13 +18,41 @@ body {
 }
 
 /* Common Inline-Block Utility Settings */
-.header-top > .brand-logo,
-.header-top > .nav-links,
-.header-bottom > .search-input,
-.search-input + .search-btn,
-.cards-section > .card,
-.footer-socials > .social-item,
-.social-item > img,
+.header-top > .brand-logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-top > .nav-links {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-bottom > .search-input {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-input + .search-btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cards-section > .card {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-socials > .social-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-item > img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .social-item > img + a {
     display: inline-block;
     vertical-align: middle;
@@ -56,7 +84,10 @@ body {
     transition: color 0.3s;
 }
 
-.nav-links > a:hover,
+.nav-links > a:hover {
+    color: black;
+}
+
 .social-item > img + a:hover {
     color: black;
 }
@@ -276,8 +307,24 @@ body {
     color: #2c3e50;
 }
 
-.form-group > input[type="text"],
-.form-group > input[type="email"],
+.form-group > input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-group > input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
 .form-group > select {
     width: 100%;
     padding: 10px;
@@ -287,7 +334,10 @@ body {
     outline: none;
 }
 
-.form-group > input:focus,
+.form-group > input:focus {
+    border-color: rgb(95, 4, 4);
+}
+
 .form-group > select:focus {
     border-color: rgb(95, 4, 4);
 }
